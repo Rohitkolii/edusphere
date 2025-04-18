@@ -1,0 +1,92 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 0 50px;
+    height: 4.5rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.455);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    transition: .3s;
+    /* font-weight: 500; */
+    font-size: 17px;
+}
+nav a:hover{
+    color: #3A59D1;
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: 700;
+    /* font-family: cursive; */
+}
+nav .logo span{
+    color: #3A59D1;
+}
+nav .logo:hover{
+    color: inherit;
+}
+
+nav div ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav .logbtn{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgb(32, 32, 32);
+}
+nav .logbtn:hover{
+    color: white;
+    background-color: rgba(32, 32, 32, 0.955);
+    box-shadow: 1px 1px 10px rgb(32, 32, 32);
+}
+
+/* ////offer */
+
+.offer{
+    background-color: #3A59D1;
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: cursive;
+    animation: blow 5s infinite;
+}
+
+@keyframes blow {
+    0%{
+        color: white;
+    }
+    20%{
+        color: white;
+    }
+    50%{
+        color: rgba(255, 255, 255, 0);
+    }
+    70%{
+        color: white;
+    }
+    100%{
+        color: rgb(255, 255, 255);
+    }
+}

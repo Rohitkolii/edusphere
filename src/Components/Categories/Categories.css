@@ -1,0 +1,50 @@
+.categories_inner{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.categories_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.categories_inner .categories_grid .categorie_card{
+    padding: 20px 15px;
+    /* border: 1px solid rgba(105, 105, 105, 0.193); */
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.148);
+    cursor: pointer;
+    position: relative;
+    /* background-color: red; */
+}
+
+.over{
+    width: 0%;
+    height: 100%;
+    background-color: #3A59D1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 1.5s;
+    border-radius: 6px;
+}
+
+.categories_inner .categories_grid div:hover .over{
+    /* transition: 1.9s; */
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0),#3A59D1);
+}
+
+.categories_inner div svg{
+    background-color: #3A59D1;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 6px;
+}
+
