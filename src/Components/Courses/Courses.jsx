@@ -4,47 +4,47 @@ import "../Courses/Courses.css"
 
 const data = [
     {
-        img: "images/class/1.png",
+        img: "/images/Class/1.png",
         title : "Class 12th",
         hours : "2",
         extra: "Commerce"
     },
     {
-        img: "images/class/2.png",
+        img: "/images/Class/2.png",
         title : "Class 12th",
         hours : "2",
         extra : "Science PCM"
     },
     {
-        img: "images/class/3.png",
+        img: "/images/Class/3.png",
         title : "Class 12th",
         hours : "2",
         extra: "Science PCB"
     },
     {
-        img: "images/class/4.png",
+        img: "/images/Class/4.png",
         title : "Class 12th",
         hours : "2",
         extra: "Arts"
     },
     {
-        img: "images/class/5.png",
+        img: "/images/Class/5.png",
         title : "Class 10th",
         hours : "2",
         extra: ""
     },
     {
-        img: "images/class/6.png",
+        img: "/images/Class/6.png",
         title : "HTML for Beginers",
         hours : "2",
     },
     {
-        img: "images/class/7.png",
+        img: "images/Class/7.png",
         title : "CSS for Beginers",
         hours : "2",
     },
     {
-        img: "images/class/8.png",
+        img: "/images/Class/8.png",
         title : "JavaScript for Beginers",
         hours : "2",
     },
